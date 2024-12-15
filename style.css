@@ -1,0 +1,1011 @@
+
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+margin: 0px 165px;
+}
+
+.header{
+    background-image: url("img/bg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+
+    /* Делаем отступы между элементами меню */
+    justify-content: space-around;
+}
+
+.nav_item{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+
+    transition: color 0.2s linear;
+}
+
+
+/* При наевдении на элемент меню */
+.nav_item:hover{
+    color: rgb(204, 88, 0);
+}
+
+
+/* Полоса справа от корзины */
+.cart{
+    position: relative;
+
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.cart_img{
+    position: absolute;
+    top: 19px;
+    right: 15px;
+}
+
+.num{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: color 0.2s linear;
+}
+
+
+.num:hover{
+    color: rgb(204, 88, 0);
+}
+
+
+.phone_text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone_holder{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    background-color: #FF7400;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: color linear 0.2s;
+}
+
+
+.button:hover{
+    background-color: #dedbdb;
+    color: #FF7400;
+}
+
+
+/* Часть 2 */
+
+.header_down{
+    position: relative;
+
+}
+
+.header_title{
+color: #D67E35;
+font-family: "Tinos", serif;
+font-size: 50px;
+font-weight: 400;
+
+text-align: center;
+position: absolute;
+left: 0;
+
+margin-top: 210px;
+}
+
+/* Стили для subTittle не нужны, так как они перешли от тайтла */
+
+
+.header_supTitle{
+    color: #fff;
+    font-size: 18px;
+    font-family:"Open Sans", sans-serif;
+
+    margin-top: 12px;
+}
+
+/* Делаем линии слева и справа от надписи ДОМ ЛУЧШЕЙ ЕДЫ */
+.header_supTitle::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 55px;
+    background-color: #fff;
+    top: 127px;
+    left: 60px;
+
+    margin-top: 12px;
+}
+
+.header_supTitle::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 55px;
+    background-color: #fff;
+    top: 127px;
+    left: 314px;
+
+    margin-top: 12px;
+}
+
+.header_button{
+    background-color: #FF7400;
+    text-decoration: none;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family:"Open Sans", sans-serif;
+
+    transition: color linear 0.2s;
+}
+
+.header_button:hover{
+    background-color: #dedbdb;
+    color: #FF7400;
+}
+
+
+/* Cards */
+
+.cards_holder{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+
+    padding: 0px 15px;
+    padding-bottom: 15px;
+}
+
+.card_image{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.card_title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.card_title span{
+    color: #BC9060;
+}
+
+.card_description{
+    text-align: center;
+
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+}
+
+.history{
+    margin-top: 166px;
+    padding-bottom: 200px;
+}
+
+.history_title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+
+    width: 444px;
+    text-align: center;
+}
+
+.history_title span{
+    color: #D67E34;
+}
+
+.history_description{
+    color: #656363;
+    font-size: 16px;
+
+    width: 444px;
+    text-align: center;
+
+    margin-top: 21px;
+}
+
+.history_number{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.number_item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number_item span{
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+.history_holder{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.history_images{
+    position: relative;
+}
+
+
+
+.black_block{
+    background-image: url("img/bg_blackblock.jpg");
+
+    padding: 80px 0px;
+}
+
+.left_title{
+    color: #D67E34;
+    font-family: "Tinos", serif;
+    font-size: 52px;
+
+    margin-bottom: 20px;
+}
+
+.left_text{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.right_btn{
+    background-color: #FF7400;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: color linear 0.2s;
+}
+
+.right_btn:hover{
+    background-color: #dedbdb;
+    color: #FF7400;
+}
+
+.block_holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dishes_title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+
+    padding-top: 132px;
+
+    margin-bottom: 139px;
+}
+
+.dishes_title span{
+    color: #D67E34;
+}
+
+.burgers{
+    display: flex;
+    justify-content: center;
+}
+
+.burger_item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.burgers_image{
+    margin-right: 20px;
+}
+
+.burger_text{
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    margin-left: 26px;
+}
+
+
+/* Часть 5 */
+
+.menu{
+    background-image: url(img/menu_bg.jpg);
+
+    padding-bottom: 100px;
+}
+
+.menu_title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    color: #fff;
+    padding-top: 98px;
+    text-align: center;
+
+    padding-bottom: 138px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu_item{
+    background-color: #fff;
+    text-align: center;
+    width: 33%;
+
+    padding-top: 80px;
+
+    padding-bottom: 30px;
+
+
+    margin-right: 25px;
+}
+
+.menu_text{
+    font-family: "Tinos", serif;
+    font-size: 26px;
+
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+.menu_subtext{
+    font-size: 16px;
+}
+
+.menu_btn{
+    background-color: #D67E34;
+    text-decoration: none;
+    padding: 14px 67px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+
+    transition: color linear 0.2s;
+}
+
+.menu_btn:hover{
+    background-color: #b26b00;
+}
+
+.menu_button{
+    margin-top: 20px;
+}
+
+.menu_items{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* Часть 6 */
+
+.comment{
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 139px;
+}
+
+.comment_text{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.comment_img{
+    border-radius: 50px;
+}
+
+.comment_image{
+    text-align: center;
+}
+
+.comment_type{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.comment_name{
+    padding-top: 9px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+.gallery_title{
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    font-weight: 400;
+
+    text-align: center;
+    padding-top: 100px;
+
+    margin-bottom: 60px;
+}
+
+.gallery_title span{
+    color: #D67E34;
+}
+
+.gallery_content{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery_left{
+    margin-right: 20px;
+}
+
+.gallery_down, .gallery_up{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+
+
+
+.cook{
+    padding-bottom: 100px;
+}
+
+.cook_title{
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-size: 54px;
+
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.cook_title span{
+    color: #D67E34;
+}
+
+.cook_content{
+    display: flex;
+    justify-content: center
+}
+
+
+/* Нижняя часть (связаться) */
+.footer{
+    background-color: #000;
+    align-items: center;
+}
+
+.footer_left{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.telegram{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.tel_text a{
+    color: #87acf7;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.tel_text a:hover{
+    color: #538dff;
+}
+
+.tel_img img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    
+    top: -10px;
+    left: 190px;
+}
+
+/* Бургер меню */
+.burger_menu{
+    display: none;
+}
+
+/* Делаем рабочее бургер-меню */
+
+.block{
+    display: block;
+}
+
+.burger_slide{
+    position: absolute;  /* Бургер немного сьехал вверх, теперь он на линии с логотипом */
+    top: 30px;
+    right: -55px;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: transparent; /* прозрачный */
+}
+
+
+/* По совместительству с js */
+.disp{
+    display: none;
+}
+
+
+
+
+
+
+/* Адаптация */
+
+
+@media (max-width: 1200px) {
+    
+.gallery_content{
+    display: block;
+}
+
+.img_gal, 
+.gallery_down,
+.gallery_up {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img_gal{
+    margin-bottom: 20px;
+}
+    /* Я до этого делал отступБ сейчас его уберу чтобы картинки выровнять по центру */
+
+    .gallery_left{
+        margin-right: 0;
+    }
+
+
+.menu_items{
+display: block;
+}
+.menu_item{
+    margin: 20px auto;
+    width: 420px;
+}
+
+.header_title{
+    position: static;
+}
+
+.header_supTitle::after, .header_supTitle::before{
+    content: none;
+}
+
+.cook_content{
+    display: block;
+}
+
+.cook_content img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+
+.block_holder{
+    display: block;
+}
+
+.left_title, .left_text, .right_button{
+    text-align: center;
+}
+
+.right_button{
+    margin-top: 50px;
+}
+
+/* Картинки, находящиеся окло блока история просто выключу */
+.history_images{
+    display: none;
+}
+
+.history_description,
+.history_number,
+.history_title{
+    width: auto;
+}
+
+/* для бургер меню стили снизу */
+
+.burger_menu{
+    display: block;
+}
+
+.nav, .cart, .phone, .btn{
+    display: none;
+}
+
+.header_line{
+    justify-content: space-between;
+}
+
+.burger_menu {
+    position: relative;
+    text-align: center; /* Центрируем элементы внутри контейнера */
+}
+
+#burger {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    transform: scale(1.2);
+}
+
+#menu {
+    display: none; /* Скрываем меню по умолчанию */
+    opacity: 0; /* Начальная прозрачность */
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#menu.disp {
+    display: flex; /* Меню становится flex-элементом при открытии */
+    flex-direction: column;
+    align-items: center; /* Центрируем элементы по горизонтали */
+    opacity: 1; /* Полная видимость */
+    transform: translateY(0); /* Возвращаем элемент на место */
+    animation: slide-in 0.3s ease forwards; /* Добавляем анимацию */
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.nav_item {
+    padding: 15px 20px;
+    color: #fff; /* Цвет текста по умолчанию */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav_item:hover {
+    background-color: #f0f0f0; /* Цвет фона при наведении */
+}
+
+}
+
+
+
+
+@media(max-width: 1000px){
+    
+    .cards_holder{
+        display: block;
+    }
+
+    .card{
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+
+
+
+@media(max-width: 850px) {
+    .burgers_image{
+        display: none;
+    }
+
+    .menu_item{
+        width: 380px;
+    }
+}
+
+
+
+@media(max-width: 880px) {
+    .high{
+        display: none;
+    }
+}
+
+
+
+
+@media(max-width: 780px) {
+
+.history_holder{
+    display: block;
+}
+
+.menu_item{
+    width: auto;
+}
+}
+
+
+
+@media(max-width: 700px) {
+
+    .cook .container{
+        margin: auto 40px;
+    }
+
+    .history .container{
+        margin: auto 15%;
+    }
+
+    .number_item{
+        margin-right: auto;
+    }
+
+    .black_block .container{
+        margin: 0 20%;
+    }
+
+}
+
+
+
+@media(max-width: 620px) {
+
+    .menu_img{
+        width: 220px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media(max-width: 600px) {
+
+    .header_title{
+       font-size: 40px;
+       margin-bottom: 30px;
+}
+
+.header_button{
+    margin-top: 30px;
+}
+}
+
+
+@media(max-width: 635px) {
+    .header .container{
+        margin: auto;
+    }
+
+    .cards .container{
+        margin: auto;
+        width: 70%;
+        justify-content: center;
+    }
+    
+
+    .burger_menu{
+        margin-right: 10%;
+    }
+
+    .header_logo{
+        margin-left: 5%;
+    }
+
+    .cards_holder{
+        margin: auto;
+    }
+
+    .header_btn{
+        margin-top: 15%;
+    }
+}
+
+
+
+
+@media(max-width: 550px) {
+    .left_title{
+        font-size: 34px;
+    }
+
+    .left_text{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media(max-width: 500px) {
+
+    .number_item{
+        font-size: 23px;
+    }
+
+
+}
+
+
+
+
+@media(max-width: 400px) {
+    .number_item{
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    .card_title span{
+        margin-left: 0;
+    }
+
+    .left_title{
+        font-size: 28px;
+    }
+
+    .left_text{
+        font-size: 12px;
+    }
+
+}
+
+
+@media(max-width: 355px) {
+    .card_title{
+        font-size: large;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Горизонтально повернутый телефон */
+
+@media(max-height: 500px) and (max-width: 1000px) {
+    .header_title{
+        margin-top: 18px;
+        font-size: 40px;
+    }
+
+    .header_btn{
+        margin-top: 18px;
+    }
+
+    .cards_holder{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .container:not(.header .container){
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .card{
+        transform: scale(0.8);
+        margin-right: 0;
+    }
+
+    p, h1,h2,h3,h4,h5{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media(max-height: 500px) and (max-width: 860px) {
+    .card{
+        transform: scale(0.75);
+        width: 50%;
+    }
+}
+
+@media(max-height: 500px) and (max-width: 860px) {
+    .card{
+        transform: scale(0.75);
+    }
+}
+@media(max-height: 500px) and (max-width: 750px) {
+    .card{
+        transform: scale(0.7);
+    }
+}
+@media(max-height: 500px) and (max-width: 700px) {
+    .card{
+        transform: scale(0.65);
+    }
+}
+
+
+
